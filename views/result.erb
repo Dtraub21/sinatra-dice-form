@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Result</title>
+</head>
+<body>
+  <h1><%= @dice %>d<%= @sides %></h1>
+  <ol>
+    <% @rolls.each do |roll| %>
+      <li><%= roll %></li>
+    <% end %>
+  </ol>
+</body>
+</html>
